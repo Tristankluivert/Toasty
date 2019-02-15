@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="120dp"
+       android:layout_height="40dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="50dp"
+       android:background="@drawable/buttonwarning"
+       android:textColor="@color/white"
+       android:text="Warning"
+       android:id="@+id/warning"
+       />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/buttonerror"
+        android:textColor="@color/white"
+        android:text="Error"
+        android:id="@+id/error"
+        />
+    <Button
+        android:id="@+id/success"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/buttonsuccess"
+        android:textColor="@color/white"
+        android:text="Success"
+        />
+
+
+</RelativeLayout>
